@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Third Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        #top-nav {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #top-nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        #top-nav ul li {
+            margin-left: 20px;
+        }
+
+        #top-nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #top-nav .logo {
+            font-size: 1.5rem;
+        }
+
+        #top-nav .text-highlight {
+            color: #f4a261;
+        }
+
+
+        #main-header {
+            background: url('../4.jpg') no-repeat center center/cover;
+            color: #ffffff;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #main-header .header-content {
+            max-width: 700px;
+        }
+
+        #main-header .btn {
+            background: #f4a261;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .main-container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .main-heading {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .sub-heading {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-highlight {
+            color: #f4a261;
+        }
+
+        .bg-light {
+            background: #f4f4f4;
+            padding: 1rem 0;
+        }
+
+        .bg-dark {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        .py-1 {
+            padding: 1rem 0;
+        }
+
+        .p-2 {
+            padding: 2rem 0;
+        }
+
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .service {
+            flex: 1;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .service i {
+            margin-bottom: 1rem;
+            color: #f4a261;
+        }
+
+
+        .team-img {
+            background: url('../4.jpg') no-repeat center center/cover;
+            height: 300px;
+        }
+
+        .team-text {
+            padding: 2rem;
+        }
+
+        .list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .list li {
+            padding: 5px 0;
+        }
+
+
+        .clients {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .clients div {
+            flex: 1;
+            margin: 10px;
+            text-align: center;
+        }
+
+
+        .contact-section {
+            padding: 2rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn-dark {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .bg-highlight {
+            background: #f4a261;
+            color: #fff;
+        }
+
+
+        #main-footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav id="top-nav">
+        <h1 class="logo">
+            <span class="text-highlight"><i class="fas fa-book-open"></i> Apna</span>Website
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <header id="main-header">
+        <div class="header-content">
+            <h1 class="l-heading">
+                The Sky Is The Limit
+            </h1>
+            <p class="lead">
+                This is our official website.
+            </p>
+            <a href="#services" class="btn">Read More</a>
+        </div>
+    </header>
+
+
+    <section id="services" class="bg-light py-1">
+        <div class="main-container">
+            <h2 class="main-heading text-center">
+                <span class="text-highlight">What</span> We Do
+            </h2>
+            <div class="services">
+                <div class="service">
+                    <i class="fas fa-university fa-3x"></i>
+                    <div class="headpara">
+                        <h3>Data Entry</h3>
+                        <p>
+                            We will provide service of Data Entry.
+                        </p>
+                    </div>
+                </div>
+                <div class="service">
+                    <i class="fas fa-book-reader fa-3x"></i>
+                    <div class="headpara">
+                        <h3>Website Development</h3>
+                        <p>
+                            We will provide service of Website Development.
+                        </p>
+                    </div>
+                </div>
+                <div class="service">
+                    <i class="fas fa-pencil-alt fa-3x"></i>
+                    <div class="headpara">
+                        <h3>Graph Designing</h3>
+                        <p>
+                            We will provide service of Graph Designing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="team">
+        <div class="team-img"></div>
+        <div class="team-text bg-dark p-2">
+            <h2 class="main-heading"><span class="text-highlight">Who</span> We Are</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quis labore corporis eveniet commodi vero
+                placeat veniam distinctio laudantium porro quod voluptatum temporibus sit esse libero doloribus
+                consequatur, amet debitis maiores dolore nostrum quae voluptate iure. Omnis, accusamus, maiores magnam
+                sunt placeat, quidem iure necessitatibus sit consequatur sint voluptas quae.
+            </p>
+            <h3  class="sub-heading">Our Team</h3>
+            <ul class="list">
+                <li>Irfan: CEO</li>
+                <li>Salman: CFO</li>
+                <li>Kamran: Lead Accountant</li>
+                <li>Imran: Investment Management</li>
+                <li>Noman: Senior Accountant</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="clients" class="py-1">
+        <div class="main-container">
+            <h2 class="main-heading text-center">
+                <span class="text-highlight">Our</span> Clients
+            </h2>
+            <div class="clients">
+                <div>
+                    <img style="width: 100px; height:auto;" src="../4.jpg" alt="Client-1">
+                </div>
+                <div>
+                    <img style="width: 100px; height:auto;" src="../4.jpg" alt="Client-2">
+                </div>
+                <div>
+                    <img style="width: 100px; height:auto;" src="../4.jpg" alt="Client-3">
+                </div>
+                <div>
+                    <img style="width: 100px; height:auto;" src="../4.jpg" alt="Client-4">
+                </div>
+                <div>
+                    <img style="width: 100px; height:auto;" src="../4.jpg" alt="Client-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="main-container">
+            <div class="contact-section bg-highlight p-2">
+                <h2 class="main-heading">Contact Us</h2>
+                <p>Please use the form below to contact us</p>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Enter Message"></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn-dark">
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="main-footer">
+        <p>ApnaWebsite &copy; 2024, All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
+
+
