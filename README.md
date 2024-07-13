@@ -1,4 +1,4 @@
-Apna Website
+# Apna Website
 This repository contains the code for the Apna Website, developed as part of the Web Development course at Bano Qabil 3.0, instructed by Sir Basit Hussain.
 
 Description
@@ -10,8 +10,8 @@ Usage
 Credits
 License
 Installation
-Clone the repository: git clone https://github.com/your-username/apnawebsite-Website.git
-Navigate to the project directory.
+Clone the repository: git clone https://github.com/your-username/ApnaWebsite-Website.git
+You can just navigate to the project directory.
 Open index.html in your web browser.
 Usage
 
